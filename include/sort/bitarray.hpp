@@ -1,5 +1,5 @@
 /*
-Copyright [2021] [Max A. Jurankov]
+Copyright [2021] [Max A.Jurankov]
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
@@ -12,13 +12,11 @@ limitations under the License.
 */
 
 /**
- * Author: astronmax
- * 
  * Realization of sorting algorithm using bit array. Sorting containers with negative 
  * or non-integer numbers are not allowed. Duplicate values will be lost after 
  * sorting if they were present.
  * 
- * The algorithm creates a bit array. The algorithm then checks each value from the container 
+ * The algorithm creates a bit array. Then it checks each value from the container 
  * that needs to be sorted. The main task is to set true those bits in the bit array, the 
  * indexes of which match with the elements of the container.
  * Bit array needs only for saving information which elements were in container before sort.
@@ -27,7 +25,7 @@ limitations under the License.
  * Bit array looks like this: [00000000] (7 bits in array)
  * After sort bit array will look like this: [11010101]
  * Indexing starts from the right bit. Zero bit is true --> container has zero, we need to 
- * put zero at the zero index...
+ * put zero at the zero index ...
  */
 
 #pragma once

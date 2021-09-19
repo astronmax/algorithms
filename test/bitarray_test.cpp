@@ -1,5 +1,5 @@
 /*
-Copyright [2021] [Max A. Jurankov]
+Copyright [2021] [Max A.Jurankov]
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
@@ -12,12 +12,12 @@ limitations under the License.
 */
 
 /**
- * Test for alg::bitsort() function
+ * Test for alg::sort::bitsort() function
  */
 
 #include <algorithm>
 #include <gtest/gtest.h>
-#include <sort/bitsort.hpp>
+#include <sort/bitarray.hpp>
 #include <vector>
 
 TEST(bitsort_test, upper_lower)
